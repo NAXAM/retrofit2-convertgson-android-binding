@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Retrofi2.ConvertGson.Droid</id>
+       <version>2.1.0</version>
+        <description>Xamarin Binding Library - Retrofi2 ConvertGson</description>
+        <summary>Xamarin Binding Library - Retrofi2 ConvertGson</summary>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+        <!-- Optional elements -->
+        <title>Naxam - Square Retrofi2 ConvertGson</title>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xam-android-retrofit2-convertgson</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, Retrofi2, GoogleGson</tags>
+        <dependencies>
+            <dependency id="Naxam.Retrofit2.Droid" version="2.1.0" />
+            <dependency id="GoogleGson" version="2.6.2.0" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Retrofit2.ConvertGson.Droid/bin/Release/Naxam.Retrofit2.ConvertGson.Droid.dll" target="lib/MonoAndroid10/Naxam.Retrofit2.ConvertGson.Droid.dll" />
+    </files>
+</package>
