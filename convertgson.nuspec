@@ -3,7 +3,7 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.Retrofit2.ConvertGson.Droid</id>
-       <version>2.1.0</version>
+       <version>2.3.0</version>
         <description>Xamarin Binding Library - Retrofit2 ConvertGson</description>
         <summary>Xamarin Binding Library - Retrofit2 ConvertGson</summary>
         <authors>Vu Duc Tuyen</authors>
@@ -17,7 +17,7 @@
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, Retrofit2, GoogleGson</tags>
         <dependencies>
-            <dependency id="Naxam.Retrofit2.Droid" version="2.1.0" />
+            <dependency id="Naxam.Retrofit2.Droid" version="2.3.0" />
             <dependency id="GoogleGson" version="2.6.2.0" />
         </dependencies>
     </metadata>
