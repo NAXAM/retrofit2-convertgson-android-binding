@@ -17,8 +17,8 @@
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, Retrofit2, GoogleGson</tags>
         <dependencies>
-            <dependency id="Naxam.Retrofit2.Droid" version="2.3.0" />
-            <dependency id="GoogleGson" version="2.6.2.0" />
+            <!-- <dependency id="Naxam.Retrofit2.Droid" version="2.3.0" />
+            <dependency id="GoogleGson" version="2.6.2.0" /> -->
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->
