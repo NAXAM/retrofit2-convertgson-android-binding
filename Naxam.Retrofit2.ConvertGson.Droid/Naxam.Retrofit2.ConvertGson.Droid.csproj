@@ -69,7 +69,7 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\converter-gson-2.3.0.jar" />
+    <InputJar Include="Jars\converter-gson-2.3.0.1.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
