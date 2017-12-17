@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.Retrofit2.ConvertGson.Droid", "Naxam.Retrofit2.ConvertGson.Droid\Naxam.Retrofit2.ConvertGson.Droid.csproj", "{AF3758FD-DE4A-4A0A-B2B5-8385EE708A73}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{A9D4531A-D67F-43B1-9022-C4FB1F267599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickStart", "demo\QuickStart\QuickStart.csproj", "{ADD08D83-0807-4B6B-843E-E18510BB901A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,10 +31,23 @@ Global
 		{AF3758FD-DE4A-4A0A-B2B5-8385EE708A73}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{AF3758FD-DE4A-4A0A-B2B5-8385EE708A73}.Debug|iPhone.ActiveCfg = Debug|Any CPU
 		{AF3758FD-DE4A-4A0A-B2B5-8385EE708A73}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Release|iPhone.Build.0 = Release|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{ADD08D83-0807-4B6B-843E-E18510BB901A}.Debug|iPhone.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{ADD08D83-0807-4B6B-843E-E18510BB901A} = {A9D4531A-D67F-43B1-9022-C4FB1F267599}
 	EndGlobalSection
 EndGlobal

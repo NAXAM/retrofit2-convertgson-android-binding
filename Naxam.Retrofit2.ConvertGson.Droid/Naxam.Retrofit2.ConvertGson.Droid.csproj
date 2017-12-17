@@ -38,21 +38,21 @@
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Square.OkHttp3, Version=3.8.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Square.OkHttp3.3.8.0\lib\MonoAndroid\Square.OkHttp3.dll</HintPath>
-    </Reference>
     <Reference Include="Square.OkIO, Version=1.13.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Square.OkIO.1.13.0\lib\MonoAndroid\Square.OkIO.dll</HintPath>
-    </Reference>
-    <Reference Include="Square.Retrofit2, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Square.Retrofit2.2.3.0\lib\MonoAndroid\Square.Retrofit2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
     <Reference Include="GoogleGson">
-      <HintPath>..\packages\GoogleGson.2.6.2.0\lib\MonoAndroid\GoogleGson.dll</HintPath>
+      <HintPath>..\packages\GoogleGson.2.7.0\lib\MonoAndroid\GoogleGson.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.Retrofit2">
+      <HintPath>..\packages\Square.Retrofit2.2.2.0\lib\MonoAndroid\Square.Retrofit2.dll</HintPath>
+    </Reference>
+    <Reference Include="Square.OkHttp3">
+      <HintPath>..\packages\Square.OkHttp3.3.6.0\lib\MonoAndroid\Square.OkHttp3.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -69,7 +69,7 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <InputJar Include="Jars\converter-gson-2.3.0.1.jar" />
+    <EmbeddedJar Include="Jars\converter-gson-2.2.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
