@@ -15,7 +15,7 @@ We specialize in developing mobile applications using Xamarin and native technol
 ## Installation
 
 ```
-Install-Package Naxam.Mapbox.Droid
+Install-Package Naxam.Retrofit2.ConvertGson.Droid
 ```
 
 ## Usage
