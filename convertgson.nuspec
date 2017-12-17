@@ -3,12 +3,12 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.Retrofit2.ConvertGson.Droid</id>
-        <version>2.2.0</version>
+        <version>2.3.0.2</version>
         <authors>NAXAM</authors>
         <owners>NAXAM COMPANY LIMITED</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>Naxam - Retrofit 2 - Converter Gson</title>
-        <summary>Retrofit 2 - Converter Gson 2.2.0</summary>
+        <summary>Retrofit 2 - Converter Gson 2.3.0</summary>
         <description>Xamarin Binding Library - Retrofit 2 - Converter Gson</description>
         <iconUrl>https://avatars0.githubusercontent.com/u/82592</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
@@ -17,7 +17,7 @@
         <tags>xamarin, Xamarin.Android, retrofit2, converter-gson, gson</tags>
         <dependencies>
             <dependency id="GoogleGson" version="2.7.0" />
-            <dependency id="Square.Retrofit2" version="2.2.0" />
+            <dependency id="Square.Retrofit2" version="2.3.0" />
         </dependencies>
     </metadata>
     <files>
