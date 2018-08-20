@@ -4,3 +4,4 @@ packages
 #*.nupkg
 *.userprefs
 .vs/
+tools/
